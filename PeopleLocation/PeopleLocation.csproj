@@ -9,10 +9,58 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Model\Image\Cabs\0.png" />
+    <None Remove="Model\Image\Cabs\00.png" />
+    <None Remove="Model\Image\Cabs\1.png" />
+    <None Remove="Model\Image\Cabs\10.png" />
+    <None Remove="Model\Image\Cabs\11.png" />
+    <None Remove="Model\Image\Cabs\12.png" />
+    <None Remove="Model\Image\Cabs\13.png" />
+    <None Remove="Model\Image\Cabs\14.png" />
+    <None Remove="Model\Image\Cabs\15.png" />
+    <None Remove="Model\Image\Cabs\16.png" />
+    <None Remove="Model\Image\Cabs\17.png" />
+    <None Remove="Model\Image\Cabs\18.png" />
+    <None Remove="Model\Image\Cabs\19.png" />
+    <None Remove="Model\Image\Cabs\2.png" />
+    <None Remove="Model\Image\Cabs\20.png" />
+    <None Remove="Model\Image\Cabs\21.png" />
+    <None Remove="Model\Image\Cabs\22.png" />
+    <None Remove="Model\Image\Cabs\3.png" />
+    <None Remove="Model\Image\Cabs\4.png" />
+    <None Remove="Model\Image\Cabs\5.png" />
+    <None Remove="Model\Image\Cabs\6.png" />
+    <None Remove="Model\Image\Cabs\7.png" />
+    <None Remove="Model\Image\Cabs\8.png" />
+    <None Remove="Model\Image\Cabs\9.png" />
     <None Remove="Model\Image\Hospital.png" />
   </ItemGroup>
 
   <ItemGroup>
+    <Resource Include="Model\Image\Cabs\0.png" />
+    <Resource Include="Model\Image\Cabs\00.png" />
+    <Resource Include="Model\Image\Cabs\1.png" />
+    <Resource Include="Model\Image\Cabs\10.png" />
+    <Resource Include="Model\Image\Cabs\11.png" />
+    <Resource Include="Model\Image\Cabs\12.png" />
+    <Resource Include="Model\Image\Cabs\13.png" />
+    <Resource Include="Model\Image\Cabs\14.png" />
+    <Resource Include="Model\Image\Cabs\15.png" />
+    <Resource Include="Model\Image\Cabs\16.png" />
+    <Resource Include="Model\Image\Cabs\17.png" />
+    <Resource Include="Model\Image\Cabs\18.png" />
+    <Resource Include="Model\Image\Cabs\19.png" />
+    <Resource Include="Model\Image\Cabs\2.png" />
+    <Resource Include="Model\Image\Cabs\20.png" />
+    <Resource Include="Model\Image\Cabs\21.png" />
+    <Resource Include="Model\Image\Cabs\22.png" />
+    <Resource Include="Model\Image\Cabs\3.png" />
+    <Resource Include="Model\Image\Cabs\4.png" />
+    <Resource Include="Model\Image\Cabs\5.png" />
+    <Resource Include="Model\Image\Cabs\6.png" />
+    <Resource Include="Model\Image\Cabs\7.png" />
+    <Resource Include="Model\Image\Cabs\8.png" />
+    <Resource Include="Model\Image\Cabs\9.png" />
     <Resource Include="Model\Image\Hospital.png" />
   </ItemGroup>
 

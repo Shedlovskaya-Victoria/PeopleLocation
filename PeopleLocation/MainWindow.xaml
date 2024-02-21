@@ -5,45 +5,221 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:PeopleLocation"
         mc:Ignorable="d"
-        Title="MainWindow"  ResizeMode="NoResize">
-    <Grid x:Name="grid">
+        Title="MainWindow" Width="2030" Height="725"  ResizeMode="NoResize">
+    <!--<Grid x:Name="grid">
         <Grid.ColumnDefinitions>
-            <ColumnDefinition/>
-            <ColumnDefinition Width="22*"/>
+            <ColumnDefinition Width="103*"/>
+            <ColumnDefinition Width="105*"/>
+            <ColumnDefinition Width="209*"/>
+            <ColumnDefinition Width="107*"/>
+            <ColumnDefinition Width="274*"/>
+            <ColumnDefinition Width="117*" />
+            <ColumnDefinition Width="98*" />
+            <ColumnDefinition Width="173*" />
+            <ColumnDefinition Width="169*" />
+            <ColumnDefinition Width="193*" />
+            <ColumnDefinition Width="119*" />
+            <ColumnDefinition Width="101*" />
+            <ColumnDefinition Width="156*" />
+            <ColumnDefinition Width="187*" />
+            <ColumnDefinition Width="220*" />
+            <ColumnDefinition Width="16*" />
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
-            <RowDefinition/>
-            <RowDefinition/>
-            <RowDefinition/>
+            <RowDefinition />
+            <RowDefinition  />
+            <RowDefinition   />
         </Grid.RowDefinitions>
-        <Image Source="Model/Image/Hospital.png" Grid.ColumnSpan="2" Grid.RowSpan="3" HorizontalAlignment="Left" Width="2346" />
-        <!---1 ряд-->
-        <Canvas  x:Name="canvas1" Grid.Row="0" Grid.Column="0" Margin="10,10,2144,159"/>
-        <Canvas x:Name="canvas2" Grid.Row="0" Grid.Column="0" Margin="219,10,1834,154"/>
-        <Canvas x:Name="canvas3" Grid.Row="0" Grid.Column="0" Margin="111,10,2031,159"/>
-        <Canvas x:Name="canvas4" Grid.Row="0" Grid.Column="0" Margin="416,10,1726,159"/>
-        <Canvas x:Name="canvas5" Grid.Row="0" Grid.Column="0" Margin="524,10,1434,159"/>
-        <Canvas x:Name="canvas6" Grid.Row="0" Grid.Column="0" Margin="816,10,1330,159"/>
-        <Canvas x:Name="canvas7" Grid.Row="0" Grid.Column="0" Margin="920,10,1226,154"/>
-        <Canvas x:Name="canvas8" Grid.Row="0" Grid.Column="0" Margin="1021,10,1048,253"/>
-        <Canvas x:Name="canvas9" Grid.Row="0" Grid.Column="0" Margin="1362,0,688,154"/>
-        <Canvas x:Name="canvas10" Grid.Row="0" Grid.Column="0" Margin="1562,10,582,154"/>
-        <Canvas x:Name="canvas11" Grid.Row="0" Grid.Column="0" Margin="1668,10,476,154"/>
-        <Canvas x:Name="canvas12" Grid.Row="0" Grid.Column="0" Margin="1774,10,310,154"/>
-        <Canvas x:Name="canvas13" Grid.Row="0" Grid.Column="0" Margin="1945,10,130,154"/>
-        <Canvas x:Name="canvas14" Grid.Row="0" Grid.Column="0" Margin="2120,10,10,154" Grid.ColumnSpan="2"/>
-        <!---проход-->
-        <Canvas x:Name="canvas15" Grid.Column="0" Margin="10,292,0,121" Grid.ColumnSpan="2" Grid.RowSpan="2"/>
-        <!---нижний ряд-->
-        <Canvas x:Name="canvas16" Grid.Row="1" Grid.Column="0" Margin="3,74,2055,10" Grid.RowSpan="2"/>
-        <Canvas x:Name="canvas17" Grid.Row="1" Grid.Column="0" Margin="195,74,1743,10" Grid.RowSpan="2"/>
-        <Canvas x:Name="canvas18" Grid.Row="1" Grid.Column="0" Margin="507,74,1330,10" Grid.RowSpan="2"/>
-        <Canvas x:Name="canvas19" Grid.Row="1" Grid.Column="0" Margin="918,74,1226,10" Grid.RowSpan="2"/>
-        <Canvas x:Name="canvas20" Grid.Row="1" Grid.Column="0" Margin="1021,74,950,10" Grid.RowSpan="2"/>
-        <Canvas x:Name="canvas21" Grid.Row="1" Grid.Column="0" Margin="1305,74,788,10" Grid.RowSpan="2"/>
-        <Canvas x:Name="canvas22" Grid.Row="1" Grid.Column="0" Margin="1462,74,666,10" Grid.RowSpan="2"/>
-        <Canvas x:Name="canvas23" Grid.Row="1" Grid.Column="0" Margin="1584,74,496,10" Grid.RowSpan="2"/>
-        <Canvas x:Name="canvas24" Grid.Row="1" Grid.Column="0" Margin="1754,74,204,10" Grid.RowSpan="2"/>
-        <Canvas x:Name="canvas25" Grid.Row="1" Grid.Column="0" Margin="2044,74,10,10" Grid.RowSpan="2" Grid.ColumnSpan="2"/>
+        <Image Source="Model/Image/Hospital.png" Grid.RowSpan="4" HorizontalAlignment="Left" Width="2346" Grid.ColumnSpan="16" Margin="-10,-10,0,10"  />
+        --><!---1 ряд--><!--
+        <Canvas  x:Name="canvas1" Grid.Row="0" Grid.Column="0"  />
+        <Canvas  x:Name="canvas2" Grid.Row="0" Grid.Column="1"   />
+        <Canvas  x:Name="canvas3" Grid.Row="0" Grid.Column="2"  />
+        <Canvas  x:Name="canvas4" Grid.Row="0" Grid.Column="3"    />
+        <Canvas  x:Name="canvas5" Grid.Row="0" Grid.Column="4"    />
+        <Canvas  x:Name="canvas6" Grid.Row="0" Grid.Column="5"   />
+        <Canvas  x:Name="canvas7" Grid.Row="0" Grid.Column="6"    />
+        <Canvas  x:Name="canvas8" Grid.Row="0" Grid.Column="7"   />
+        <Canvas  x:Name="canvas9" Grid.Row="0" Grid.Column="7"  />
+        <Canvas  x:Name="canvas10" Grid.Row="0" Grid.Column="8" />
+        <Canvas  x:Name="canvas11" Grid.Row="0" Grid.Column="9" />
+        <Canvas  x:Name="canvas12" Grid.Row="0" Grid.Column="10"  />
+        <Canvas  x:Name="canvas13" Grid.Row="0" Grid.Column="11" />
+        <Canvas  x:Name="canvas14" Grid.Row="0" Grid.Column="12" />
+        --><!---проход--><!--
+        <Canvas x:Name="canvas15" Grid.ColumnSpan="16"  Grid.Row="1" />
+        --><!---нижний ряд--><!--
+        <Canvas  x:Name="canvas16" Grid.Row="2" Grid.Column="0"       />
+        <Canvas  x:Name="canvas17" Grid.Row="2" Grid.Column="1"   />
+        <Canvas  x:Name="canvas18" Grid.Row="2" Grid.Column="2"     />
+        <Canvas  x:Name="canvas19" Grid.Row="2" Grid.Column="3"    />
+        <Canvas  x:Name="canvas20" Grid.Row="2" Grid.Column="4"    />
+        <Canvas  x:Name="canvas21" Grid.Row="2" Grid.Column="5"     />
+        <Canvas  x:Name="canvas22" Grid.Row="2" Grid.Column="6"     />
+        <Canvas  x:Name="canvas23" Grid.Row="2" Grid.Column="7"      />
+        <Canvas  x:Name="canvas24" Grid.Row="2" Grid.Column="8"   />
+        <Canvas  x:Name="canvas25" Grid.Row="2" Grid.Column="9"    />
+    </Grid>-->
+
+    <Grid x:Name="grid" >
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+        <StackPanel Orientation="Horizontal">
+            <Grid>
+                <Border BorderBrush="DarkGray" BorderThickness="5">
+                    <Image Source="\Model\Image\Cabs\17.png" Height="220"/>
+                </Border>
+                <Canvas Name="canvas17"/>
+            </Grid>
+            <Grid>
+                <Border BorderBrush="DarkGray" BorderThickness="5">
+                    <Image Source="\Model\Image\Cabs\18.png" Height="220"/>
+                </Border>
+                <Canvas Name="canvas18"/>
+            </Grid>
+            <Grid>
+                <Border BorderBrush="DarkGray" BorderThickness="5">
+                    <Image Source="\Model\Image\Cabs\19.png" Height="220"/>
+                </Border>
+                <Canvas Name="canvas19"/>
+            </Grid>
+            <Grid>
+                <Border BorderBrush="DarkGray" BorderThickness="5">
+                    <Image Source="\Model\Image\Cabs\20.png" Height="220"/>
+                </Border>
+                <Canvas Name="canvas20"/>
+            </Grid>
+            <Grid>
+                <Border BorderBrush="DarkGray" BorderThickness="5">
+                    <Image Source="\Model\Image\Cabs\21.png" Height="220"/>
+                </Border>
+                <Canvas Name="canvas21"/>
+            </Grid>
+            <Grid>
+                <Border BorderBrush="DarkGray" BorderThickness="5">
+                    <Image Source="\Model\Image\Cabs\22.png" Height="220"/>
+                </Border>
+                <Canvas Name="canvas22"/>
+            </Grid>
+            <Grid Width="150" Height="220">
+            </Grid>
+            <Grid VerticalAlignment="Top">
+                <Border BorderBrush="DarkGray" BorderThickness="5">
+                    <Image Source="\Model\Image\Cabs\0.png" Width="150"/>
+                </Border>
+                <Canvas Name="canvas0"/>
+            </Grid>
+            <Grid Width="150" Height="220">
+            </Grid>
+            <Grid>
+                <Border BorderBrush="DarkGray" BorderThickness="5">
+                    <Image Source="\Model\Image\Cabs\1.png" Height="220"/>
+                </Border>
+                <Canvas Name="canvas1"/>
+            </Grid>
+            <Grid>
+                <Border BorderBrush="DarkGray" BorderThickness="5">
+                    <Image Source="\Model\Image\Cabs\2.png" Height="220"/>
+                </Border>
+                <Canvas Name="canvas2"/>
+            </Grid>
+            <Grid>
+                <Border BorderBrush="DarkGray" BorderThickness="5">
+                    <Image Source="\Model\Image\Cabs\3.png" Height="220"/>
+                </Border>
+                <Canvas Name="canvas3"/>
+            </Grid>
+            <Grid>
+                <Border BorderBrush="DarkGray" BorderThickness="5">
+                    <Image Source="\Model\Image\Cabs\4.png" Height="220"/>
+                </Border>
+                <Canvas Name="canvas4"/>
+            </Grid>
+            <Grid>
+                <Border BorderBrush="DarkGray" BorderThickness="5">
+                    <Image Source="\Model\Image\Cabs\5.png" Height="220"/>
+                </Border>
+                <Canvas Name="canvas5"/>
+            </Grid>
+            <Grid>
+                <Border BorderBrush="DarkGray" BorderThickness="5">
+                    <Image Source="\Model\Image\Cabs\6.png" Height="220"/>
+                </Border>
+                <Canvas Name="canvas6"/>
+            </Grid>
+        </StackPanel>
+
+        <Grid Grid.Row="1">
+            <Border BorderBrush="DarkGray" BorderThickness="5">
+                <Image Source="\Model\Image\Cabs\00.png"/>
+            </Border>
+            <Canvas Name="canvas00"/>
+        </Grid>
+
+        <StackPanel Grid.Row="2" Orientation="Horizontal">
+            <Grid>
+                <Border BorderBrush="DarkGray" BorderThickness="5">
+                    <Image Source="\Model\Image\Cabs\16.png" Height="220"/>
+                </Border>
+                <Canvas Name="canvas16"/>
+            </Grid>
+            <Grid>
+                <Border BorderBrush="DarkGray" BorderThickness="5">
+                    <Image Source="\Model\Image\Cabs\15.png" Height="220"/>
+                </Border>
+                <Canvas Name="canvas15"/>
+            </Grid>
+            <Grid>
+                <Border BorderBrush="DarkGray" BorderThickness="5">
+                    <Image Source="\Model\Image\Cabs\14.png" Height="220"/>
+                </Border>
+                <Canvas Name="canvas14"/>
+            </Grid>
+            <Grid>
+                <Border BorderBrush="DarkGray" BorderThickness="5">
+                    <Image Source="\Model\Image\Cabs\13.png" Height="220"/>
+                </Border>
+                <Canvas Name="canvas13"/>
+            </Grid>
+            <Grid>
+                <Border BorderBrush="DarkGray" BorderThickness="5">
+                    <Image Source="\Model\Image\Cabs\12.png" Height="220"/>
+                </Border>
+                <Canvas Name="canvas12"/>
+            </Grid>
+            <Grid>
+                <Border BorderBrush="DarkGray" BorderThickness="5">
+                    <Image Source="\Model\Image\Cabs\11.png" Height="220"/>
+                </Border>
+                <Canvas Name="canvas11"/>
+            </Grid>
+            <Grid>
+                <Border BorderBrush="DarkGray" BorderThickness="5">
+                    <Image Source="\Model\Image\Cabs\10.png" Height="220"/>
+                </Border>
+                <Canvas Name="canvas10"/>
+            </Grid>
+            <Grid>
+                <Border BorderBrush="DarkGray" BorderThickness="5">
+                    <Image Source="\Model\Image\Cabs\9.png" Height="220"/>
+                </Border>
+                <Canvas Name="canvas9"/>
+            </Grid>
+            <Grid>
+                <Border BorderBrush="DarkGray" BorderThickness="5">
+                    <Image Source="\Model\Image\Cabs\8.png" Height="220"/>
+                </Border>
+                <Canvas Name="canvas8"/>
+            </Grid>
+            <Grid>
+                <Border BorderBrush="DarkGray" BorderThickness="5">
+                    <Image Source="\Model\Image\Cabs\7.png" Height="220"/>
+                </Border>
+                <Canvas Name="canvas7"/>
+            </Grid>          
+        </StackPanel>
     </Grid>
 </Window>
